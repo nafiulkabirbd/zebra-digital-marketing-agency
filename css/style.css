@@ -9,3 +9,34 @@
 .padding-content {
   padding: 0% 10%;
 }
+
+/* header style start */
+.header {
+  background-color: #0d0d0d;
+  background-image: url(../images/bg-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.header-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-container ul li {
+  list-style: none;
+}
+
+.header-container ul li a {
+  text-decoration: none;
+  color: #c9c9c9;
+}
