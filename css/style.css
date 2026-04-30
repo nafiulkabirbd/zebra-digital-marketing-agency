@@ -72,3 +72,64 @@
   padding: 0.938rem 1.813rem;
   border-radius: 3.125rem;
 }
+
+/* brand style start */
+.brand-container {
+  background-color: #0d0d0d;
+  padding-top: 5.625rem;
+  padding-bottom: 11.031rem;
+}
+
+.brand-content {
+  display: flex;
+  gap: 3.125rem;
+  padding-bottom: 2.813rem;
+}
+
+.brand-title-1 {
+  color: #ffffff;
+  font-size: 1.563;
+  font-weight: 500;
+}
+
+.brand-title-2 {
+  color: #c9c9c9;
+  opacity: 0.5;
+  font-size: 1.563rem;
+  font-weight: 500;
+  position: relative;
+  padding-left: 1.875rem;
+}
+
+.brand-title-2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.125rem;
+  background-color: #c9c9c9;
+  opacity: 0.5;
+}
+
+.brand-logo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.brand-logo-container {
+  width: 14.375rem;
+  height: 6.25rem;
+  background-color: #181818;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
