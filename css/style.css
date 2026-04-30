@@ -40,3 +40,35 @@
   text-decoration: none;
   color: #c9c9c9;
 }
+
+/* banner style start */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.625rem;
+}
+
+.banner-title {
+  font-size: 3.75rem;
+  margin-bottom: 1.375rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.banner-description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 2.75rem;
+  color: #c9c9c9;
+}
+
+.btn-common a {
+  text-decoration: none;
+  color: #0d0d0d;
+  background-color: #3dd47e;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.938rem 1.813rem;
+  border-radius: 3.125rem;
+}
