@@ -200,3 +200,29 @@
 #service-content {
   padding-top: 1.75rem;
 }
+
+/* why choose style start */
+.why-choose-container {
+  background-color: #0d0d0d;
+  padding-top: 9.375rem;
+}
+
+.why-choose-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-choose-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 1.375rem;
+}
+
+.why-choose-description {
+  color: #c9c9c9;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 1.688rem;
+}
