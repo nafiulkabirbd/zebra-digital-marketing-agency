@@ -226,3 +226,91 @@
   font-weight: 400;
   padding-bottom: 1.688rem;
 }
+
+/* Tablet only */
+@media (min-width: 601px) and (max-width: 768px) {
+}
+
+/* Mobile only */
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .btn-common {
+    text-align: center;
+  }
+
+  .banner-img {
+    padding-top: 5rem;
+    width: 90%;
+    margin-left: 2rem;
+  }
+
+  .brand-container {
+    padding-bottom: 5rem;
+  }
+
+  .brand-title-1 {
+    font-size: 1.1rem;
+  }
+
+  .brand-title-2 {
+    font-size: 1.1rem;
+  }
+
+  .brand-logo-content {
+    flex-direction: column;
+  }
+
+  .brand-logo-container {
+    margin-top: 1rem;
+  }
+
+  .service-content {
+    flex-direction: column;
+  }
+
+  .service-box-last {
+    flex-direction: column;
+    margin-left: 0rem;
+  }
+
+  .why-choose-container {
+    padding-bottom: 2rem;
+  }
+
+  .why-choose-content {
+    flex-direction: column;
+  }
+
+  .why-choose-content img {
+    width: 28.125rem;
+    height: auto;
+  }
+
+  .why-choose-title {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .why-choose-description {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
